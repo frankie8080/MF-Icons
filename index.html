@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ma-icon's example</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./example/styles/example.css">
+    <link rel="stylesheet" href="./example/styles/vs.min.css">
+</head>
+
+<body>
+    <h1 style="padding-top:20px;text-align: left;">MF-ICONS</h1>
+    <div class="panel">
+        <div class="title">安装:</div>
+        <prev>
+            <code class="hljs">npm install ma-icons</code>
+        </prev>
+    </div>
+    <div class="panel">
+        <div class="title">使用:</div>
+        <ul>
+            <li class="hljs hljs-comment">// @ main.js</li>
+            <li class="hljs">
+                <span class="hljs-keyword">import</span> 
+                <span class="hljs-template-variable">mfIcon</span>
+                <span class="hljs-keyword">from</span>
+                <span class="hljs-template-variable">"mf-icon"</span>
+            </li>
+            <li class="hljs">
+                <span class="hljs-keyword">import</span> 
+                <span class="hljs-template-variable">'mf-icon/assets/style.css'</span>
+                
+            </li>
+            <li class="hljs">Vue.use(mfIcon)</li>
+
+            <li class="hljs hljs-comment">// @ your component</li>
+            <li class="hljs">
+                <span class="hljs-name">&ltmf-icon</span>
+                <span class="hljs-attr">icon=</span>
+                <span class="hljs-string">"face"</span>
+                <span class="hljs-attr">theme=</span>
+                <span class="hljs-string">"twoTone"</span>
+                <span class="hljs-name">/&gt</span>
+            </li>
+        </ul>
+    </div>
+    <div class="theme panel">
+        <div class="title">图标主题风格:</div>
+        <ul class="picker">
+            <li class="theme-item checked">filled</li>
+            <li class="theme-item">outline</li>
+            <li class="theme-item">round</li>
+            <li class="theme-item">twoTone</li>
+        </ul>
+    </div>
+    <div class="category panel">
+        <div class="title">图标分类:</div>
+        <ul class="picker"></ul>
+    </div>
+    <div id="app"></div>
+    <script src="./example/scripts/jquery-2.1.1.min.js"></script>
+    <script src="./example/scripts/icons_enum.js"></script>
+    <script src="./example/scripts/example.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+{
+	"name": "mf-icon",
+	"version": "0.0.2",
+	"description": "material-icon",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "fengtianxi001",
+	"license": "ISC"
+}
