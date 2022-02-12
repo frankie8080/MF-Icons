@@ -1,5 +1,7 @@
 # MF-ICON
 
+[Documentation](https://fengtianxi001.github.io/MF-Icon/)
+
 <div>
   <img src="https://img.shields.io/github/languages/top/fengtianxi001/MF-Icon">
   <img src="https://travis-ci.org/boennemann/badges.svg?branch=master">
@@ -31,7 +33,7 @@ Vue.use(mfIcon)
 ## 5. API
 
 - icon \<string\>
-    - you can search by []
+    - you can search by [MF-Icon](https://fengtianxi001.github.io/MF-Icon/)
 - theme \<string\>
     - 'filled' \ 'outline' \ 'round' \ 'twoTone'
 
