@@ -1,6 +1,6 @@
 # MF-ICON
 
-[Documentation](https://fengtianxi001.github.io/MF-Icon/)
+[Documentation](https://frankie8080.github.io/MF-Icons/)
 
 <div>
   <img src="https://img.shields.io/github/languages/top/fengtianxi001/MF-Icon">
